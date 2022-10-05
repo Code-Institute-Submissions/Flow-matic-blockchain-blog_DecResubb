@@ -17,3 +17,21 @@ This project is part of my [Code Institute](https://codeinstitute.net/) Full Sta
         * Register ✅ 
         * Comment ✅ 
         * Like posts ✅
+        * Be able to login ✅
+        * Log out ✅
+        * See how many likes on other content ✅
+        * View all content as a user ✅
+* Admin users can.
+    * Add/edit/delete posts ✅
+    * Create groups/users ✅
+    * add attachments ✅
+    * Social accounts ✅
+    * Aprove/delete selected comments ✅
+
+## Design
+
+___
+
+## Features to add
+   * Email sign up
+        * However, email marketing has stood the test of time. Creating email newsletters is the most effective way to build stronger customer relationships, and grow your business revenue.
