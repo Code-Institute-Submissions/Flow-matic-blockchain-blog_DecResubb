@@ -27,11 +27,21 @@ This project is part of my [Code Institute](https://codeinstitute.net/) Full Sta
     * add attachments ✅
     * Social accounts ✅
     * Aprove/delete selected comments ✅
+___
 
 ## Design
+As a base guide I used code institute walkthrough videos for the design process.
+   * Imagery used
+        * I wanted to use cartoon style images throughout each blog page.
+    
 
 ___
 
 ## Features to add
    * Email sign up
+
         * However, email marketing has stood the test of time. Creating email newsletters is the most effective way to build stronger customer relationships, and grow your business revenue.
+    
+   * Newest conent
+
+        * Keepping up to date with the industry, networking, social media, forums, and google alerts will be regularly researched.  
