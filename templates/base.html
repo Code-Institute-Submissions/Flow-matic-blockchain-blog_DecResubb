@@ -56,10 +56,23 @@
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                {% for message in messages %}
+                <div class="alert {{ message.tags }} aleret-dismissible fade show" id="msg" role="alert">
+                    {{ message | safe }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,52,6636,512,2010,5426,74,3890,2634,5994,5805,2,1975,3077,3155,2856,6210,18876,2416,8916,4642,2087,7186,1839,2130,2469,5567,1966,4189,11206,10729" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
 
     <main class="flex-shrink-0 main-bg">
+        
         {% block content %}
         <!-- Content Goes here -->
         {% endblock content %}
@@ -73,5 +86,13 @@
             <i class="fab fa-instagram-square ms-3"></i>
             <i class="fab fa-youtube-square ms-3"></i></p>
     </footer>
+    <script>
+        setTimeout(function () {
+            let messages = document.getElementById('msg');
+            let alert = new bootstrap.Alert(messages);
+            alert.close();
+        }, 2500);
+    </script>
 </body>
+
 </html>
