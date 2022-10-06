@@ -44,6 +44,8 @@ ___
 As a base guide I used code institute walkthrough videos for the design process.
    * Imagery used
         * I wanted to use cartoon style images throughout each blog page.
+
+[Coinbase](https://www.coinbase.com/) and [Binance](https://www.binance.com/en) were used for content and images throughout the blog posts.
     
 
 ___
@@ -164,6 +166,8 @@ Make sure you add a procfile to your root directory!
 ### Cloudinary
 
    * create your account with cloudinary first and follow these steps for storing your [media files](https://cloudinary.com/documentation/how_to_integrate_cloudinary). 
+
+* [favicon.io](https://favicon.io/) was used to generate the browser icon, then the image was saved and uploaded to cloudinary.
 ___
 
 ## Credits 
