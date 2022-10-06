@@ -182,9 +182,16 @@ ___
 
 Validators
   
-  * My html file was checked with [W3C markup validation](https://validator.w3.org/) some errors were flagged due to using Django.
+  * My [html file](https://github.com/Flow-matic/blockchain-blog/blob/main/media/html%20errors.png?raw=true) was checked with [W3C markup validation](https://validator.w3.org/) some errors were flagged due to using Django.
     
     * Issues using '{}' brackets, this syntax is necessary to access files and urls and therefore ignored. further research will be needed. 
+
+<br>
+
+  * CSS file was checked using [CSS validation service](https://jigsaw.w3.org/css-validator/) all code was passed with 2 errors coming from the (-webkit-transform) and (moz-transform) because it is a vendor extention.
+  [This article explains the reason for the errors](https://stackoverflow.com/questions/52490004/what-are-all-of-these-w3c-css-validation-warnings-about)
+
+  At this point, these look like they'd all be safe to remove from the CSS file, but there's no particular benefit in doing so.
 ___
 
 ## Credits 
