@@ -109,7 +109,7 @@ ___
   - Gitpod terminal was used to commit and push to GitHub.
 
 - [**GitHub**](https://github.com/)
-  - GitHub is used to store the project code after being pushed from Git.
+  - GitHub is used to store the project code after being pushed from Gitpod.
 
 - [**Heroku**](https://www.heroku.com/)
   - Heroku is the app platform I deployed my project to.
@@ -188,10 +188,12 @@ Validators
 
 <br>
 
-  * [CSS file]() was checked using [CSS validation service](https://jigsaw.w3.org/css-validator/) all code was passed with [2 errors]() coming from the (-webkit-transform) and (moz-transform) because it is a vendor extention.
+  * [CSS file](https://github.com/Flow-matic/blockchain-blog/blob/main/media/css%20pass.png?raw=true) was checked using [CSS validation service](https://jigsaw.w3.org/css-validator/) all code was passed with [2 errors](https://github.com/Flow-matic/blockchain-blog/blob/main/media/css%20error%20.png?raw=true) coming from the (-webkit-transform) and (moz-transform) because it is a vendor extention.
   [This article explains the reason for the errors](https://stackoverflow.com/questions/52490004/what-are-all-of-these-w3c-css-validation-warnings-about)
 
   * At this point, these look like they'd all be safe to remove from the CSS file, but there's no particular benefit in doing so.
+
+  * [JS Hint](https://jshint.com/) was used for the small amount of JavaScript used, only (use 'esversion 6') was flagged up, this article explained the reason for creating a [.jshintrc file in the directory](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const)
 ___
 
 ## Credits 
