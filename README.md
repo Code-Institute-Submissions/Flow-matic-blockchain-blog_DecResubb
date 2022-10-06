@@ -173,9 +173,21 @@ Make sure you add a procfile to your root directory!
 
 ### Cloudinary
 
-   * create your account with cloudinary first and follow these steps for storing your [media files](https://cloudinary.com/documentation/how_to_integrate_cloudinary). 
+What is the purpose of Cloudinary?
+
+* Cloudinary is an end-to-end image- and video-management solution for websites and mobile apps, covering everything from image and video uploads, storage, manipulations, optimizations to delivery.
+
+* Cloudinary Media DB is a service that allows you to store media files in the cloud.
+
+* Cloudinary is used by 1 million web and mobile application developers at more than 8,000 companies including Condé Nast, Dropbox, Forbes, Outbrain, Taboola and Answers.com. Inc. Magazine has called Cloudinary the "gold standard" of image management on the web.
+
+* create your account with cloudinary first and follow these steps for storing your [media and static files.](https://cloudinary.com/documentation/how_to_integrate_cloudinary)  
 
 * [favicon.io](https://favicon.io/) was used to generate the browser icon, then the image was saved and uploaded to cloudinary.
+___
+
+## SEO
+
 ___
 
 ## Testing
