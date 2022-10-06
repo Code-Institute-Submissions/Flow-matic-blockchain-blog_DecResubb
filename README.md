@@ -188,7 +188,7 @@ Validators
 
 <br>
 
-  * CSS file was checked using [CSS validation service](https://jigsaw.w3.org/css-validator/) all code was passed with 2 errors coming from the (-webkit-transform) and (moz-transform) because it is a vendor extention.
+  * [CSS file]() was checked using [CSS validation service](https://jigsaw.w3.org/css-validator/) all code was passed with [2 errors]() coming from the (-webkit-transform) and (moz-transform) because it is a vendor extention.
   [This article explains the reason for the errors](https://stackoverflow.com/questions/52490004/what-are-all-of-these-w3c-css-validation-warnings-about)
 
   At this point, these look like they'd all be safe to remove from the CSS file, but there's no particular benefit in doing so.
