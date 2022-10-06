@@ -37,7 +37,7 @@ Main goals for users
     * Create groups/users ✅
     * add attachments ✅
     * Social accounts ✅
-    * Aprove/delete selected comments ✅
+    * Approve/delete selected comments ✅
 ___
 
 ## Design
@@ -65,9 +65,9 @@ ___
 
 <br>
 
-   * Newest conent
+   * Newest content
 
-     * Keepping up to date with the industry, networking, social media, forums, and google alerts will be regularly researched. 
+     * Keeping up to date with the industry, networking, social media, forums, and google alerts will be regularly researched. 
 
 <br> 
 
@@ -182,7 +182,7 @@ ___
 
 Validators
   
-  * My [html file](https://github.com/Flow-matic/blockchain-blog/blob/main/media/html%20errors.png?raw=true) was checked with [W3C markup validation](https://validator.w3.org/) some errors were flagged due to using Django.
+  * [html file](https://github.com/Flow-matic/blockchain-blog/blob/main/media/html%20errors.png?raw=true) was checked with [W3C markup validation](https://validator.w3.org/) some errors were flagged due to using Django.
     
     * Issues using '{}' brackets, this syntax is necessary to access files and urls and therefore ignored. further research will be needed. 
 
@@ -191,16 +191,22 @@ Validators
   * [CSS file](https://github.com/Flow-matic/blockchain-blog/blob/main/media/css%20pass.png?raw=true) was checked using [CSS validation service](https://jigsaw.w3.org/css-validator/) all code was passed with [2 errors](https://github.com/Flow-matic/blockchain-blog/blob/main/media/css%20error%20.png?raw=true) coming from the (-webkit-transform) and (moz-transform) because it is a vendor extention.
   [This article explains the reason for the errors](https://stackoverflow.com/questions/52490004/what-are-all-of-these-w3c-css-validation-warnings-about)
 
-  * At this point, these look like they'd all be safe to remove from the CSS file, but there's no particular benefit in doing so.
+    * At this point, these look like they'd all be safe to remove from the CSS file, but there's no particular benefit in doing so.
 
-  * [JS Hint](https://jshint.com/) was used for the small amount of JavaScript used, only (use 'esversion 6') was flagged up, this article explained the reason for creating a [.jshintrc file in the directory](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const)
+<br>
+
+  * [JS Hint](https://jshint.com/) was used for the small amount of JavaScript used, only [(use 'esversion 6')](https://github.com/Flow-matic/blockchain-blog/blob/main/media/js%20scipt%20error.png?raw=true) was flagged up, this article explained the reason for creating a [.jshintrc file in the directory](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const)
+
+<br>
+
+
 ___
 
 ## Credits 
 
 <br>
 
-Thanks to everyone involved at Code Institute for giving people the opportunity to the possibilities of a career change. From the student support, to the mentors available and everyone over at slack, getting this far with the course has been one of the most challenging things ive done.
+Thanks to everyone involved at Code Institute for giving people the opportunity and possibilities of a career change. From the student support, to the mentors available and everyone over at slack, getting this far with the course has been one of the most challenging things i've done.
 
 <br>
 
@@ -219,6 +225,9 @@ Thanks to everyone involved at Code Institute for giving people the opportunity 
   * [MDN Web Docs](https://developer.mozilla.org/en-US/) best documentation on the web.
 
   * [Font Awesome](https://fontawesome.com/) is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
+
+<br>
+
 ___
 
 <br>
