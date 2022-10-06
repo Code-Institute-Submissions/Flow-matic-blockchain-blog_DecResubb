@@ -47,7 +47,15 @@ As a base guide I used code institute walkthrough videos for the design process.
 
 [Coinbase](https://www.coinbase.com/) and [Binance](https://www.binance.com/en) were used for content and images throughout the blog posts.
     
+## [balsamiq wireframes](https://balsamiq.com/)
 
+  * [Creating your first wireframe.](https://balsamiq.com/tutorials/articles/firstwireframe/)
+    
+    * A website wireframe, also known as a page schematic or screen blueprint, is a visual guide that represents the skeletal framework of a website. The term wireframe is taken from other fields that use a skeletal framework to represent 3 dimensional shape and volume. 
+
+    * [Blockhain-Blog home page wireframe](https://github.com/Flow-matic/blockchain-blog/blob/main/media/wireframe%20home%20page.png?raw=true)
+
+    * [Blog-page content](https://github.com/Flow-matic/blockchain-blog/blob/main/media/wireframes%20comment.png?raw=true)
 ___
 
 ## Features to add
