@@ -53,7 +53,7 @@ As a base guide I used code institute walkthrough videos for the design process.
     
     * A website wireframe, also known as a page schematic or screen blueprint, is a visual guide that represents the skeletal framework of a website. The term wireframe is taken from other fields that use a skeletal framework to represent 3 dimensional shape and volume. 
 
-    * [Blockhain-Blog home page wireframe](https://github.com/Flow-matic/blockchain-blog/blob/main/media/wireframe%20home%20page.png?raw=true)
+    * [Blockhain-Blog home page wireframe](https://github.com/Flow-matic/blockchain-blog/blob/main/media/wireframes%20home.png?raw=true)
 
     * [Blog-page content](https://github.com/Flow-matic/blockchain-blog/blob/main/media/wireframes%20comment.png?raw=true)
 ___
@@ -176,6 +176,15 @@ Make sure you add a procfile to your root directory!
    * create your account with cloudinary first and follow these steps for storing your [media files](https://cloudinary.com/documentation/how_to_integrate_cloudinary). 
 
 * [favicon.io](https://favicon.io/) was used to generate the browser icon, then the image was saved and uploaded to cloudinary.
+___
+
+## Testing
+
+Validators
+  
+  * My html file was checked with [W3C markup validation](https://validator.w3.org/) some errors were flagged due to using Django.
+    
+    * Issues using '{}' brackets, this syntax is necessary to access files and urls and therefore ignored. further research will be needed. 
 ___
 
 ## Credits 
