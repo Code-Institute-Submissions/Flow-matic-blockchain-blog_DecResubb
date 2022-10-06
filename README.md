@@ -171,7 +171,7 @@ Make sure you add a procfile to your root directory!
 
    * Click Enable Automatic Deploys (because it’s less overhead for demo apps :) ). You can also select the GitHub branch if you need to, deploy from the main branch.
 
-### Cloudinary
+## Cloudinary
 
 What is the purpose of Cloudinary?
 
@@ -188,6 +188,9 @@ ___
 
 ## SEO
 
+Google Lighthouse is an open-source, automated tool for measuring the quality of web pages. It can be run against any web page, public or requiring authentication. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
+
+[These checks ensure that your page is optimized for search engine results ranking.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/seo.png?raw=true)
 ___
 
 ## Testing
@@ -218,6 +221,13 @@ Validators
     * I chose to ignore any warnings on migration files since these are automatically generated files so may ignore style rules for efficiency reasons. Also as developers, usually don't need to touch them so they don't need to be perfectly readable.
 
     * imported but unused, also line too long E501 were some common issues, but at this stage I didn’t want to start breaking up my code, so can live with this, I understand as a developer these will have to be addressed more professionally.
+
+<br>
+
+  * Various browsers and devices have been also tested throughout.
+
+<br>
+
 ___
 
 ## Credits 

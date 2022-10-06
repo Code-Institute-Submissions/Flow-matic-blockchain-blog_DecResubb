@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/?page=1</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/pow-vs-pos/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/companies-building-the-metaverse/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/dapps/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/the-ethereum-merge/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/web3/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/nft/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/?page=2</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/staying-on-top/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/bitcoin/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/ethereum/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/crypto/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/crypto-grapthy/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blockchains-blog.herokuapp.com/Metaverse/</loc>
+  <lastmod>2022-10-06T18:23:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
