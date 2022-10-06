@@ -199,7 +199,13 @@ Validators
 
 <br>
 
+  * [PEP8](https://www.google.com/search?q=pep8+checker&rlz=1C5CHFA_enNZ963NZ963&oq=pep&aqs=chrome.0.69i59l2j46i131i433i512j69i57j46i131i433i512j69i65j69i60l2.3007j0j7&sourceid=chrome&ie=UTF-8) was used for testing python code. 
 
+    * In the terminal by typing ( python3 -m flake8 ) and hit return will bring up all issuse within each python code file, saves you looking through every file one by one.
+
+    * I chose to ignore any warnings on migration files since these are automatically generated files so may ignore style rules for efficiency reasons. Also as developers, usually don't need to touch them so they don't need to be perfectly readable.
+
+    * imported but unused, also line too long E501 were some common issues, but at this stage I didn’t want to start breaking up my code, so can live with this, I understand as a developer these will have to be addressed more professionally.
 ___
 
 ## Credits 
