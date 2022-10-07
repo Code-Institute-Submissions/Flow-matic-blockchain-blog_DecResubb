@@ -69,6 +69,12 @@ ___
 
 <br>
 
+   * Users
+
+     * Letting users delete there own posts will be a added feature.
+
+<br>
+
    * Newest content
 
      * Keeping up to date with the industry, networking, social media, forums, and google alerts will be regularly researched. 
