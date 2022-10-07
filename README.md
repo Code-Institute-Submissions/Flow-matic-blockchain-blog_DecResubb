@@ -38,6 +38,10 @@ Main goals for users
     * add attachments ✅
     * Social accounts ✅
     * Approve/delete selected comments ✅
+
+<br>
+  
+* User story and template was created with github.
 ___
 
 ## Design
