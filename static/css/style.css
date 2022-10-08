@@ -111,6 +111,11 @@ body {
     color: #fff;
 }
 
+.btn-danger {
+    background-color: red;
+    color: #fff;
+}
+
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
