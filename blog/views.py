@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, reverse
-from django.views import generic, View
+from django.views import generic, View, DeleteView
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
@@ -76,3 +76,25 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+class PostDeleteView(DeleteView):
+    """
+    View for deleting a post if the user is the auther of the post
+    """
+    model = Comment
+    template_name = 'post_detail.html'
+    success_url = reverse_lazy('home')
+    success_message = 'Post has been deleted successfully'
+
+    def test_func(self):
+        """ function to check if the user is the post author """
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
+
+    def delete(self, request, *args, **kwargs):
+        """ function to display the message after post deleted """
+        messages.success(self.request, self.success_message)
+        return super(PostDeleteView, self).delete(request, *args, **kwargs)
