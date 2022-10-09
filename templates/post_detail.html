@@ -85,7 +85,9 @@
                     <!-- The body of the comment goes before the | -->
                     {{ comment.body | linebreaks }}
                 </div>
+                {% if request.user == post.author %}
                 <a class="btn btn-danger btn-lg" href="{% url 'comment_delete' comment.id %}">Delete</a>
+                {% endif %}
                 <!-- Our for loop ends here -->
                 {% endfor %}
             </div>
