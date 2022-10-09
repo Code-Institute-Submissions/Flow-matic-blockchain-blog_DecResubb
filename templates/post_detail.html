@@ -85,7 +85,7 @@
                     <!-- The body of the comment goes before the | -->
                     {{ comment.body | linebreaks }}
                 </div>
-                <button type="button" class="btn btn-danger btn-lg" href="{% url 'comment_delete' comment.id %}">Delete</button>
+                <a class="btn btn-danger btn-lg" href="{% url 'comment_delete' comment.id %}">Delete</a>
                 <!-- Our for loop ends here -->
                 {% endfor %}
             </div>
