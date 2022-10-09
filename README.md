@@ -28,6 +28,7 @@ Main goals for users
     * Log out ✅
     * See how many likes on other content ✅
     * View all content as a user ✅
+    * once users are signed up and logged in they can delete there comment.
 
 <br>
 
@@ -67,11 +68,6 @@ ___
 
      * However, email marketing has stood the test of time. Creating email newsletters is the most effective way to build stronger customer relationships, and grow your business revenue.
 
-<br>
-
-   * Users
-
-     * Letting users delete there own posts will be a added feature.
 
 <br>
 
