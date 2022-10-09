@@ -1,4 +1,4 @@
-{% extends "blog/base.html" %}
+{% extends "base.html" %}
 {% block content %}
     <div class="content-section">
         <form method="POST">
@@ -9,7 +9,7 @@
             </fieldset>
             <div class="form-group">
                 <button class="btn btn-outline-danger" type="button">Yes, Delete</button>
-                <a class="btn btn-outline-secondary" href="{% url 'post-detail' object.id %}">Cancel</a>
+                <a class="btn btn-outline-secondary" href="{% url 'delete_comment' object.id %}">Cancel</a>
             </div>
         </form>
     </div>

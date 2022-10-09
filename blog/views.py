@@ -87,7 +87,7 @@ class PostDeleteView(DeleteView):
     View for deleting a post if the user is the auther of the post
     """
     model = Comment
-    template_name = 'post_detail.html'
+    template_name = 'comment_delete.html'
     success_url = reverse_lazy('home')
     success_message = 'Post has been deleted successfully'
 
