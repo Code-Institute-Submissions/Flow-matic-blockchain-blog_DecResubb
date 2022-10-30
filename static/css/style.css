@@ -141,6 +141,28 @@ body {
     border: none;
 }
 
+/* Footer */
+
+.footer-icon {
+    font-size: 2.4rem;
+}
+
+.footer-link a {
+    color: #007bff !important;
+    text-decoration: none;
+}
+
+.footer-link a:hover,
+.footer-link a:active,
+.footer-link a:focus {
+    color: #0000ff  !important;
+}
+
+.dark-font {
+    color: #555555 !important;
+}
+
+
 /* Mailchimp */
 
 #mc_embed_signup {
