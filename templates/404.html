@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="col-12 my-auto text-center">
+            <h2 class="logo-font text-black">Error 404</h2>
+            <p class="mt-5">Don't worry this reqiuest could not be found. please click on the link below and we will get you back to the home page. </p>
+            <div class="my-5">
+                <h4>
+                    <a href="{% url 'home' %}" class="shop-button btn btn-lg rounded-0 text-uppercase py-3">
+                        Lets Go Home
+                    </a>
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
