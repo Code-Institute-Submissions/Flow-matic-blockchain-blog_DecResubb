@@ -141,6 +141,24 @@ body {
     border: none;
 }
 
+/* Mailchimp */
+
+#mc_embed_signup {
+    padding: 0;
+}
+
+
+.footer {
+    background-color: #000;
+    padding-bottom: 0em;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    height: 70px;
+    z-index: -1;
+    color: #000;
+}
+
 /*button.btn.btn-danger.btn-lg {
     color: #E84610;
     background: #fff;
