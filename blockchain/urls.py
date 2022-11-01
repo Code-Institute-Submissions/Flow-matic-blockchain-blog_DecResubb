@@ -23,4 +23,7 @@ urlpatterns = [
     path("accounts/", include("allauth.urls")),
 ]
 
+handler400 = 'blockchain.views.handler400'
+handler403 = 'blockchain.views.handler403'
 handler404 = 'blockchain.views.handler404'
+handler500 = 'blockchain.views.handler500'
