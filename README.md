@@ -42,7 +42,11 @@ Main goals for users
 
 <br>
   
-* User story and template was created with github.
+## User story boards
+
+<br>
+
+
 ___
 
 ## Design
@@ -96,32 +100,53 @@ ___
 
 ## Technologies used
 
-## Languages
+<br>
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- [JavaScript](https://www.javascript.com/)
-- [Python](https://www.python.org/)
+- ![Visual Studio Code](https://img.shields.io/static/v1?label=VS%20Code&message=1.42.0&color=007ACC&logo=visual%20studio%20code&logoColor=ffffff)
+    - [VS Code](https://code.visualstudio.com/) - Used as my code testing and editing.
+- [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
+    - [GitHub](https://github.com/) - Used as remote storage of my projects online.
+- ![Balsamiq Wireframes](https://img.shields.io/static/v1?label=Balsamiq&message=3.5.17&color=CC0200)
+    - [Balsamiq](https://balsamiq.com/) - Used to bring my wireframe sketches to life.
+
+<br>
+
+### Front-End Technologies
+
+<br>
+
+- ![HTML5](https://img.shields.io/static/v1?label=HTML&message=5&color=E34F26&logo=html5&logoColor=ffffff)
+    - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Used as the base for markup text.
+- ![CSS3](https://img.shields.io/static/v1?label=CSS&message=3&color=1572B6&logo=css3&logoColor=ffffff)
+    - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Used as the base for cascading styles.
+- ![jQuery 3.4.1](https://img.shields.io/static/v1?label=jQuery&message=3.4.1&color=0769AD&logo=jquery&logoColor=ffffff)
+    - [jQuery 3.4.1](https://code.jquery.com/jquery/) - Used as the primary JavaScript functionality.
+
+<br>
+
+### Back-End Technologies
+
+<br>
+
+- ![Python](https://img.shields.io/static/v1?label=Python&message=3.6.7&color=blue&logo=python&logoColor=ffffff)
+    - [Python 3.6.7](https://www.python.org/) - Used as the back-end programming language.
+- ![Django](https://img.shields.io/static/v1?label=Django&message=2.2.16&color=092E20&logo=django)
+    - [Django 2.2.16](https://docs.djangoproject.com/en/2.2/) - Used as my Python web framework.
+- ![Heroku](https://img.shields.io/static/v1?label=Heroku&message=PaaS&color=430098&logo=heroku)
+    - [Heroku](https://www.heroku.com) - Used for *"Platform as a Service"* (PaaS) for app hosting.
+- ![PostgreSQL 11.4](https://img.shields.io/static/v1?label=PostgreSQL&message=11.4&color=336791&logo=postgresql)
+    - [PostgreSQL 11.4](https://www.postgresql.org/) - Used as relational SQL database plugin via Heroku.
 ___
 
 ## Frameworks, Libraries & Programs
 
 <br>
 
-- [**Django**](https://www.djangoproject.com/)
-  - Python Web framework used to build the site.
-
 - [**Gitpod**](https://www.gitpod.io/)
   - Gitpod terminal was used to commit and push to GitHub.
 
 - [**GitHub**](https://github.com/)
   - GitHub is used to store the project code after being pushed from Gitpod.
-
-- [**Heroku**](https://www.heroku.com/)
-  - Heroku is the app platform I deployed my project to.
-
-- [**Heroku Postgres**](https://www.heroku.com/postgres)
-  - Heroku’s reliable and powerful database used to store the data for my deployed Heroku App.
 
 - [**Bootstrap 4**](https://getbootstrap.com/)
   - Bootstrap was used to assist with the responsiveness and styling of the website using design templates.
@@ -232,7 +257,13 @@ Validators
 
   * Various browsers and devices have been also tested throughout.
 
+---
+
+<br>
+
 ## Error pages created for users.
+
+<br>
 
 ## 400 Bad Request error
   * The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (for example, malformed request syntax, invalid request message framing, or deceptive request routing). 
