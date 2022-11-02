@@ -232,6 +232,22 @@ Validators
 
   * Various browsers and devices have been also tested throughout.
 
+## Error pages created for users.
+
+## 400 Bad Request error
+  * The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (for example, malformed request syntax, invalid request message framing, or deceptive request routing). 
+
+## HTTP 403 error
+  * HTTP 403 forbidden errors are caused by an access misconfiguration on the client-side, which means you can usually resolve the issue yourself. A common cause of these errors is the file or folder permission settings, which control who can read, write, and execute the file or folder.
+
+## 404 Page not found error
+  * This error shows when a user types a URL into the browser which does not exist within the app's domain.page not found or file not found error message is a hypertext transfer protocol standard response code, to indicate that the browser was able to communicate with a given server, but the server could not find what was requested.
+
+## 500 Internal server error
+  * The HyperText Transfer Protocol (HTTP) 500 Internal Server Error server error response code indicates that the server encountered an unexpected condition that prevented it from fulfilling the request.
+
+This error response is a generic "catch-all" response. Usually, this indicates the server cannot find a better 5xx error code to response. Sometimes, server administrators log error responses like the 500 status code with more details about the request to prevent the error from happening again in the future.
+
 <br>
 
 ___
