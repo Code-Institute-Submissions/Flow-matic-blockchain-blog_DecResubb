@@ -88,7 +88,7 @@ As a base guide I used code institute walkthrough videos for the design process.
 
     * [Blog-page content](https://github.com/Flow-matic/blockchain-blog/blob/main/media/wireframes%20comment.png?raw=true)
 
-    * [Subsribe footer](https://github.com/Flow-matic/blockchain-blog/blob/main/media/subscribe%20wireframe.png?raw=true)
+    * [Subscribe footer](https://github.com/Flow-matic/blockchain-blog/blob/main/media/subscribe%20wireframe.png?raw=true)
 ___
 
 ## Features to add
@@ -194,11 +194,11 @@ ___
 
 <br>
 
-This project was deployed to Heroku from Github and finally coded in gitpod terminal, with the media files stored on Cloudinary.
+This project was created on Github then using Gitpod as a development environment to write and push code to Github, before being deployed to Heroku, with the media and static files stored on Cloudinary.
 
 <br>
 
-### Setting up the Github repository:
+### Setting up the [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
 
 <br>
 
@@ -220,12 +220,24 @@ Congratulations! You've successfully created your first repository, and initiali
 
 <br>
 
-### Using Gitpod
+### Using ![gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)
+  
+  * Start your first workspace
+
+    * The first time you login to Gitpod with GitHub, you will be prompted to “Authorize Gitpod” to access your GitHub account. This creates a connection between Gitpod and your GitHub account, and installs an OAuth App in your GitHub [settings.](https://www.gitpod.io/docs/configure/authentication/github)
+
+    * Gitpod uses the name and email from your GitHub account ID to create a new Gitpod user account. This is sufficient to start a Gitpod workspace on a public repository.
+
+    * Create a repository in [github](https://docs.github.com/en/get-started/quickstart/create-a-repo) with the desired name of your App or project.
+
+    * 
+
+    * [Gitpod](https://www.gitpod.io/) environment is used to write your code for your App then gets pushed to Github.
 
 
 <br>
 
-### Setting up Heroku environment:
+### Setting up ![Heroku](https://img.shields.io/static/v1?label=Heroku&message=PaaS&color=430098&logo=heroku)
 
 <br>
 
