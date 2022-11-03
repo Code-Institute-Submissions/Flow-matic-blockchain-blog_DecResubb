@@ -230,9 +230,21 @@ Congratulations! You've successfully created your first repository, and initiali
 
     * Create a repository in [github](https://docs.github.com/en/get-started/quickstart/create-a-repo) with the desired name of your App or project.
 
-    * 
+    * Once your github repository is created, click the [green Gitpod button.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/gitpod%20workspace%20green%20button.png?raw=true) This will automatically start creating your workspace environment.
 
     * [Gitpod](https://www.gitpod.io/) environment is used to write your code for your App then gets pushed to Github.
+
+<br>
+
+  * ![Python](https://img.shields.io/static/v1?label=Python&message=3.6.7&color=blue&logo=python&logoColor=ffffff)
+    
+    * The packages installed for this project can be found in [requirements.txt](https://github.com/Flow-matic/blockchain-blog/blob/main/requirements.txt)
+
+<br> 
+
+  * ![Django](https://img.shields.io/static/v1?label=Django&message=2.2.16&color=092E20&logo=django)
+
+    * Django was used as the python framework in the project.
 
 
 <br>
@@ -263,9 +275,13 @@ Make sure you add a procfile to your root directory!
 
    * Click Enable Automatic Deploys (because it’s less overhead for demo apps :) ). You can also select the GitHub branch if you need to, deploy from the main branch.
 
+<br>
+
 ## Cloudinary
 
-What is the purpose of Cloudinary?
+<br> 
+
+What is the purpose of [Cloudinary?](https://cloudinary.com/)
 
 * Cloudinary is an end-to-end image- and video-management solution for websites and mobile apps, covering everything from image and video uploads, storage, manipulations, optimizations to delivery.
 
@@ -279,6 +295,8 @@ What is the purpose of Cloudinary?
 ___
 
 ## SEO
+
+<br>
 
 Google Lighthouse is an open-source, automated tool for measuring the quality of web pages. It can be run against any web page, public or requiring authentication. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
 
