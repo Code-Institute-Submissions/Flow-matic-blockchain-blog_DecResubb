@@ -41,8 +41,30 @@ Main goals for users
     * Approve/delete selected comments ✅
 
 <br>
+
+---
   
-## User story boards
+## [User story boards created with Github](https://github.com/users/Flow-matic/projects/8)
+
+<br>
+
+* [Site User's I can view a paginated list of posts so that I may easily select a post to view.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20pagination.png?raw=true)
+
+* [As a user I would like to delete my comments from posts.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20delete.png?raw=true)
+
+* [Site admin can create, read, update, and delete posts so that I can mange the conntent. ](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20manage%20posts.png?raw=true)
+
+* [User's can like and unlike comments, so they can interact with the content provided.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20like:unlike.png?raw=true)
+
+* [Site user's can comment on posts so they maybe able to interact with conversations.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20comment%20on%20a%20post.png?raw=true)
+
+* [User's will have to register an account, and be aproved by admin, before they can leave comments and likes.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20account%20registration.png?raw=true)
+
+* [Visitors and site user's can click on post's to view and read the content available.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20open%20a%20post.png?raw=true)
+
+* [Site admin and users can view the number of likes for each post to see the most popular ones.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20view%20likes.png?raw=true)
+
+* [As a site admin and user I can view comments on each post available.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20view%20comments.png?raw=true)
 
 <br>
 
