@@ -87,14 +87,12 @@ As a base guide I used code institute walkthrough videos for the design process.
     * [Blockhain-Blog home page wireframe](https://github.com/Flow-matic/blockchain-blog/blob/main/media/wireframes%20home.png?raw=true)
 
     * [Blog-page content](https://github.com/Flow-matic/blockchain-blog/blob/main/media/wireframes%20comment.png?raw=true)
+
+    * [Subsribe footer](https://github.com/Flow-matic/blockchain-blog/blob/main/media/subscribe%20wireframe.png?raw=true)
 ___
 
 ## Features to add
-   * Email sign up
-
-     * However, email marketing has stood the test of time. Creating email newsletters is the most effective way to build stronger customer relationships, and grow your business revenue.
-
-
+  
 <br>
 
    * Newest content
