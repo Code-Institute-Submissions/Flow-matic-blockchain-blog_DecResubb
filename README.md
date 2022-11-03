@@ -194,7 +194,36 @@ ___
 
 <br>
 
-The project was deployed to Heroku with the media files stored on Cloudinary.
+This project was deployed to Heroku from Github and finally coded in gitpod terminal, with the media files stored on Cloudinary.
+
+<br>
+
+### Setting up the Github repository:
+
+<br>
+
+  * To put your project up on GitHub, you will need to create a [repository](https://docs.github.com/en/get-started/quickstart/create-a-repo) for it to live in.
+
+    * In the upper-right corner of any page, use the  drop-down menu, and select New repository.
+
+    * Type a short, memorable name for your repository. For example, "hello-world".
+
+    * Optionally, add a description of your repository. For example, "My first repository on GitHub."
+
+    * Choose a repository visibility. For more information, [see](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility)
+
+    * Select Initialize this repository with a README.
+
+    * Click Create repository.
+
+Congratulations! You've successfully created your first repository, and initialized it with a README file.
+
+<br>
+
+### Using Gitpod
+
+
+<br>
 
 ### Setting up Heroku environment:
 
