@@ -74,7 +74,10 @@ ___
 ## Design
 As a base guide I used code institute walkthrough videos for the design process.
    * Imagery used
-        * I wanted to use cartoon style images throughout each blog page.
+      * I wanted to use cartoon style images throughout each blog page.
+   
+   * Colour scheme by [W3Schools](https://www.w3schools.com/colors/colors_picker.asp)
+      *  
 
 [Coinbase](https://www.coinbase.com/) and [Binance](https://www.binance.com/en) were used for content and images throughout the blog posts.
     
