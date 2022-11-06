@@ -3,7 +3,11 @@
 ![responsive design](media/taxes__1_.png)
 
 When most people hear the word blockchain, which refers to a type of decentralized ledger technology, they immediately connect the term with cryptocurrencies. However, it is important to keep in mind that bitcoin just happened to be one of blockchain’s earliest and most popular applications; most experts believe that the potential for other applications of blockchain technology is vast.
+
+[The government has today announced moves that will see stablecoins recognised as a valid form of payment as part of wider plans to make Britain a global hub for cryptoasset technology and investment.](https://www.gov.uk/government/news/government-sets-out-plan-to-make-uk-a-global-cryptoasset-technology-hub)
 ___
+
+<br>
 
 ## UX
 This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies. The idea was to create a blog page for users to register, comment and like various contents about different blockchain technology information. 
@@ -68,8 +72,9 @@ Main goals for users
 
 <br>
 
-
 ___
+
+<br>
 
 ## Design
 As a base guide I used code institute walkthrough videos for the design process.
@@ -95,6 +100,8 @@ As a base guide I used code institute walkthrough videos for the design process.
 
 ---
 
+<br>
+
 ## [balsamiq wireframes](https://balsamiq.com/)
 
   * [Creating your first wireframe.](https://balsamiq.com/tutorials/articles/firstwireframe/)
@@ -106,7 +113,12 @@ As a base guide I used code institute walkthrough videos for the design process.
     * [Blog-page content](https://github.com/Flow-matic/blockchain-blog/blob/main/media/wireframes%20comment.png?raw=true)
 
     * [Subscribe footer](https://github.com/Flow-matic/blockchain-blog/blob/main/media/subscribe%20wireframe.png?raw=true)
+
+<br>
+
 ___
+
+<br>
 
 ## Features to add
   
@@ -134,6 +146,8 @@ ___
 
    * With over half of the world’s population using social media, platforms like Facebook, Instagram or Twitter a natural place to reach new and highly targeted potential customers.
 ___
+
+<br>
 
 ## Technologies used
 
@@ -175,6 +189,8 @@ ___
     - [PostgreSQL 11.4](https://www.postgresql.org/) - Used as relational SQL database plugin via Heroku.
 ___
 
+<br>
+
 ## Frameworks, Libraries & Programs
 
 <br>
@@ -206,6 +222,8 @@ ___
 - [**JShint**](https://jshint.com)
     - Used to validate JS code
 ___
+
+<br>
 
 ## Deployment 
 
@@ -311,6 +329,8 @@ What is the purpose of [Cloudinary?](https://cloudinary.com/)
 * [favicon.io](https://favicon.io/) was used to generate the browser icon, then the image was saved and uploaded to cloudinary.
 ___
 
+<br>
+
 ## SEO
 
 <br>
@@ -319,6 +339,8 @@ Google Lighthouse is an open-source, automated tool for measuring the quality of
 
 [These checks ensure that your page is optimized for search engine results ranking.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/seo.png?raw=true)
 ___
+
+<br>
 
 ## Testing
 
@@ -352,6 +374,11 @@ Validators
 <br>
 
   * Various browsers and devices have been also tested throughout.
+     * [Mobile-Friendly-test](https://search.google.com/test/mobile-friendly) 
+        *  About this tool
+[Test how easily a visitor can use your page on a mobile device. Just enter a page URL to see how your page scores.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/mobile%20friendly%20test.png?raw=true)
+
+<br>
 
 ---
 
@@ -378,6 +405,8 @@ This error response is a generic "catch-all" response. Usually, this indicates t
 <br>
 
 ___
+
+<br>
 
 ## Credits 
 
