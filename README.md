@@ -78,7 +78,7 @@ As a base guide I used code institute walkthrough videos for the design process.
 
 <br>
 
-   * Colour scheme chosen by [W3Schools](https://www.w3schools.com/colors/colors_picker.asp)
+   * Colour scheme chosen by [W3Schools](https://www.w3schools.com/colors/colors_picker.asp) The final list of colors used has been placed in the below list.
       *  [#000](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%23000.png?raw=true)
       * [#0000ff](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%230000ff.png?raw=true)
       * [#007bff](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%23007bff.png?raw=true)
@@ -357,11 +357,11 @@ Validators
 
 <br>
 
-## Error pages created for users.
+## [Error pages created for users.](https://github.com/Flow-matic/blockchain-blog/tree/main/templates)
 
 <br>
 
-## [400 Bad Request error](https://github.com/Flow-matic/blockchain-blog/blob/main/templates/400.html)
+## [400 Bad request error](https://github.com/Flow-matic/blockchain-blog/blob/main/templates/400.html)
   * The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (for example, malformed request syntax, invalid request message framing, or deceptive request routing). 
 
 ## [HTTP 403 error](https://github.com/Flow-matic/blockchain-blog/blob/main/templates/403.html)
