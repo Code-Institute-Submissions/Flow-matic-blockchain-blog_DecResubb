@@ -75,12 +75,26 @@ ___
 As a base guide I used code institute walkthrough videos for the design process.
    * Imagery used
       * I wanted to use cartoon style images throughout each blog page.
-   
-   * Colour scheme by [W3Schools](https://www.w3schools.com/colors/colors_picker.asp)
-      *  
+
+<br>
+
+   * Colour scheme chosen by [W3Schools](https://www.w3schools.com/colors/colors_picker.asp)
+      *  [#000](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%23000.png?raw=true)
+      * [#0000ff](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%230000ff.png?raw=true)
+      * [#007bff](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%23007bff.png?raw=true)
+      * [#23BBBB](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%2323BBBB.png?raw=true)
+      * [#445261](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%23445261.png?raw=true)
+      * [#4A4A4F](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%234A4A4F.png?raw=true)
+      * [#555555](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%23555555.png?raw=true)
+      * [#E84610](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%23E84610.png?raw=true)
+      * [#F9FAFC](https://github.com/Flow-matic/blockchain-blog/blob/main/media/%23F9FAFC.png?raw=true)
 
 [Coinbase](https://www.coinbase.com/) and [Binance](https://www.binance.com/en) were used for content and images throughout the blog posts.
-    
+
+<br>
+
+---
+
 ## [balsamiq wireframes](https://balsamiq.com/)
 
   * [Creating your first wireframe.](https://balsamiq.com/tutorials/articles/firstwireframe/)
