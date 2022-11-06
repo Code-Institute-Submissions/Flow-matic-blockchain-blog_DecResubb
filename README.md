@@ -116,7 +116,7 @@ As a base guide I used code institute walkthrough videos for the design process.
 
 <br>
 
-To help me visualize a typical user journey around the site, I used [draw.io](https://app.diagrams.net/) to help me plan out the various routes a user could take through the site. 
+To help me visualize a typical user journey around the site, I used [draw.io](https://app.diagrams.net/) to help me plan out the various routes a user could take through the site. [➡️ 🗾](https://github.com/Flow-matic/blockchain-blog/blob/main/media/data%20schema.png?raw=true)
 
 <br>
 
