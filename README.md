@@ -7,7 +7,6 @@ When most people hear the word blockchain, which refers to a type of decentraliz
 [The government has today announced moves that will see stablecoins recognised as a valid form of payment as part of wider plans to make Britain a global hub for cryptoasset technology and investment.](https://www.gov.uk/government/news/government-sets-out-plan-to-make-uk-a-global-cryptoasset-technology-hub)
 ___
 
-<br>
 
 ## UX
 This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies. The idea was to create a blog page for users to register, comment and like various contents about different blockchain technology information. 
@@ -52,21 +51,55 @@ Main goals for users
 
 * [Site User's I can view a paginated list of posts so that I may easily select a post to view.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20pagination.png?raw=true)
 
+  * Pagination is the method of separating digital content into different pages on a website. Users can navigate between these pages by clicking links, often in the form of numbers located at the bottom of a page. Paginated content is typically related by some common theme or purpose.
+
+<br>
+
 * [As a user I would like to delete my comments from posts.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20delete.png?raw=true)
+
+  * engaging with your audience via comments is an excellent way of making a connection with your target market. If you are able to provide customer service to comments from unsatisfied customers quickly, you can avoid losing such customers and end up gaining new ones as well.
+
+<br>
 
 * [Site admin can create, read, update, and delete posts so that I can mange the conntent. ](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20manage%20posts.png?raw=true)
 
+  * Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organised, up to date and looking great. So many websites never review their content after launch.
+
+<br>
+
 * [User's can like and unlike comments, so they can interact with the content provided.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20like:unlike.png?raw=true)
+
+  * Every successful social media website offers features for users to engage with what they see: likes, loves, comments, and reactions.
+
+<br>
 
 * [Site user's can comment on posts so they maybe able to interact with conversations.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20comment%20on%20a%20post.png?raw=true)
 
+  * Algorithms on social media seem to favor comments and back-and-forth conversation. If your post gets a lot of comments, it will get more distribution.
+
+<br>
+
 * [User's will have to register an account, and be aproved by admin, before they can leave comments and likes.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20account%20registration.png?raw=true)
+
+  *  Through the registration process, you can detect fraud and add a level of increased security to your website.
+
+<br>
 
 * [Visitors and site user's can click on post's to view and read the content available.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20open%20a%20post.png?raw=true)
 
+  * People may be more likely to pause on, interact with and respond positively to posts with creative that captures their attention. Every post should include creative, such as images
+
+<br>
+
 * [Site admin and users can view the number of likes for each post to see the most popular ones.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20view%20likes.png?raw=true)
 
+  * Popular posts can help you get more likes, comments, and shares, which can lead to organic reach and new followers.
+
+<br>
+
 * [As a site admin and user I can view comments on each post available.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20view%20comments.png?raw=true)
+
+  * Comments build the relationship among the readers/ users and the owners/writers. 
 
 ___
 
