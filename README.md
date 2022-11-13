@@ -122,23 +122,8 @@ ___
 
      * Keeping up to date with the industry, networking, social media, forums, and google alerts will be regularly researched. 
 
-<br> 
-
-   * All social media pages and links will be added at a later date for users to follow.
-
-     * [Facebook](https://cryptolinks.com/facebook-cryptocurrency)
- 
-     * [Instagram](https://coinbound.io/25-top-crypto-instagram-influencers-you-should-be-following/)
- 
-     * [Youtube](https://coinbound.io/25-top-crypto-instagram-influencers-you-should-be-following/)
- 
-     * [Reddit](https://coinbound.io/best-crypto-subreddits/)
- 
-     * [Twitter](https://twitter.com/search?q=%23CRYPTO)
-
 <br>
 
-   * With over half of the world’s population using social media, platforms like Facebook, Instagram or Twitter a natural place to reach new and highly targeted potential customers.
 ___
 
 ## Technologies used
