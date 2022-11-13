@@ -44,8 +44,6 @@ Main goals for users
     * Social accounts ✅
     * Approve/delete selected comments ✅
 
-<br>
-
 ---
   
 ## [User story boards created with Github](https://github.com/users/Flow-matic/projects/8)
@@ -70,11 +68,7 @@ Main goals for users
 
 * [As a site admin and user I can view comments on each post available.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20view%20comments.png?raw=true)
 
-<br>
-
 ___
-
-<br>
 
 ## Design
 As a base guide I used code institute walkthrough videos for the design process.
@@ -100,8 +94,6 @@ As a base guide I used code institute walkthrough videos for the design process.
 
 ---
 
-<br>
-
 ## [balsamiq wireframes](https://balsamiq.com/)
 
   * [Creating your first wireframe.](https://balsamiq.com/tutorials/articles/firstwireframe/)
@@ -121,8 +113,6 @@ To help me visualize a typical user journey around the site, I used [draw.io](ht
 <br>
 
 ___
-
-<br>
 
 ## Features to add
   
@@ -150,8 +140,6 @@ ___
 
    * With over half of the world’s population using social media, platforms like Facebook, Instagram or Twitter a natural place to reach new and highly targeted potential customers.
 ___
-
-<br>
 
 ## Technologies used
 
@@ -193,8 +181,6 @@ ___
     - [PostgreSQL 11.4](https://www.postgresql.org/) - Used as relational SQL database plugin via Heroku.
 ___
 
-<br>
-
 ## Frameworks, Libraries & Programs
 
 <br>
@@ -226,8 +212,6 @@ ___
 - [**JShint**](https://jshint.com)
     - Used to validate JS code
 ___
-
-<br>
 
 ## Deployment 
 
@@ -344,8 +328,6 @@ Google Lighthouse is an open-source, automated tool for measuring the quality of
 [These checks ensure that your page is optimized for search engine results ranking.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/seo.png?raw=true)
 ___
 
-<br>
-
 ## Testing
 
 Validators
@@ -386,8 +368,6 @@ Validators
 
 ---
 
-<br>
-
 ## [Error pages created for users.](https://github.com/Flow-matic/blockchain-blog/tree/main/templates)
 
 <br>
@@ -409,8 +389,6 @@ This error response is a generic "catch-all" response. Usually, this indicates t
 <br>
 
 ___
-
-<br>
 
 ## Credits 
 
@@ -439,8 +417,6 @@ Thanks to everyone involved at Code Institute for giving people the opportunity 
 <br>
 
 ___
-
-<br>
 
 Helpful Resources To Continue Learning About Blockchain
 ---
