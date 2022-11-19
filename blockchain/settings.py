@@ -29,7 +29,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY', 'viakp!icby(*28g%)9qq59gggd1n79g7m1ki5wxfpe6%hc(7*l')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["blockchains-blog.herokuapp.com", "localhost"]
 

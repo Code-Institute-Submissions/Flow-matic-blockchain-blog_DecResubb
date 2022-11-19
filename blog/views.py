@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
-from django.views.generic.edit import DeleteView
+from django.views.generic.edit import DeleteView, UpdateView
 from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
 from .models import Post, Comment
@@ -90,4 +90,14 @@ class PostDeleteView(DeleteView):
     template_name = 'comment_delete.html'
     success_url = reverse_lazy('home')
     success_message = 'Post has been deleted successfully'
+
+
+class PostUpdateView(UpdateView):
+    """
+    View for editing a post if the user is the auther of the post
+    """
+    model = Comment
+    template_name = 'edit.html'
+    success_url = reverse_lazy('home')
+    success_message = 'Post has been updated successfully'
 
