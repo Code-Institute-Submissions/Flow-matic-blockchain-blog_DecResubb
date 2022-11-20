@@ -92,12 +92,16 @@ class PostDeleteView(DeleteView):
     success_message = 'Post has been deleted successfully'
 
 
-class PostUpdateView(UpdateView):
-    """
-    View for editing a post if the user is the auther of the post
-    """
-    model = Comment
-    template_name = 'edit.html'
-    success_url = reverse_lazy('home')
-    success_message = 'Post has been updated successfully'
+def edit_item(request, item_id):
+    item = get_object_or_404(Item, id=item_id)
+    if request.method == 'POST':
+        form = ItemForm(request.POST, instance=item)
+        if form.is_valid():
+            form.save()
+            return redirect('post_detail.html')
+    form = ItemForm(instance=item)
+    context = {
+        'form': form
+    }
+    return render(request, 'edit.html', context)
 
