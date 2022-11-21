@@ -101,7 +101,9 @@ def edit_item(request, item_id):
             return redirect('post_detail.html')
     form = ItemForm(instance=item)
     context = {
-        'form': form
+        'post': post,
+        'replies': replies,
+        'form': form,
     }
     return render(request, 'edit.html', context)
 
