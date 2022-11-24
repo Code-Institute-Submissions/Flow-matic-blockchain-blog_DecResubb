@@ -6,6 +6,8 @@ from django.http import HttpResponseRedirect
 from .models import Post, Comment
 from .forms import CommentForm
 from django.contrib.auth.mixins import PermissionRequiredMixin
+from .models import Item
+from .forms import ItemForm
 
 
 class PostList(generic.ListView):
@@ -101,9 +103,7 @@ def edit_item(request, item_id):
             return redirect('post_detail.html')
     form = ItemForm(instance=item)
     context = {
-        'post': post,
-        'replies': replies,
         'form': form,
     }
-    return render(request, 'edit.html', context)
+    return render(request, 'edit_item.html', context)
 
