@@ -6,8 +6,6 @@ from django.http import HttpResponseRedirect
 from .models import Post, Comment
 from .forms import CommentForm
 from django.contrib.auth.mixins import PermissionRequiredMixin
-from .models import Item
-from .forms import ItemForm
 
 
 class PostList(generic.ListView):
@@ -94,16 +92,17 @@ class PostDeleteView(DeleteView):
     success_message = 'Post has been deleted successfully'
 
 
-def edit_item(request, item_id):
-    item = get_object_or_404(Item, id=item_id)
-    if request.method == 'POST':
-        form = ItemForm(request.POST, instance=item)
-        if form.is_valid():
-            form.save()
-            return redirect('post_detail.html')
-    form = ItemForm(instance=item)
-    context = {
-        'form': form,
-    }
-    return render(request, 'edit_item.html', context)
+class PostUpdateView(UpdateView):
+    model = Post
+    template_name = 'post_update.html'
+    fields = ['title', 'content']
 
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
+
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
