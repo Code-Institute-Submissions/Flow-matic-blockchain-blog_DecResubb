@@ -93,9 +93,14 @@ class PostDeleteView(DeleteView):
 
 
 class PostUpdateView(UpdateView):
+    """ 
+    View for users to edit comments 
+    """
+    print("PostUpdate")
     model = Post
     template_name = 'post_update.html'
     fields = ['title', 'content']
+    success_message = 'Comment has been updated successfully'
 
     def form_valid(self, form):
         form.instance.author = self.request.user
