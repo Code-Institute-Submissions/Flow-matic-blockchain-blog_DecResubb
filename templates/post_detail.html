@@ -87,7 +87,7 @@
                 </div>
                 {% if request.user == post.author %}
                 <a class="btn btn-danger btn-lg" href="{% url 'comment_delete' comment.id %}">Delete</a>
-                <a class="btn btn-success btn-lg" href="{% url 'edit' comment.id %}">Edit</a>
+                <a class="btn btn-success btn-lg" href="{% url 'post_update' comment.id %}">Edit</a>
                 {% endif %}
                 <!-- Our for loop ends here -->
                 {% endfor %}
