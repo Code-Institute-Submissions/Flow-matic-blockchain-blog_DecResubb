@@ -94,7 +94,7 @@ class PostDeleteView(DeleteView):
 
 class PostUpdateView(UpdateView):
     """
-    View for users to edit comments
+    View for users to edit comments via post_update.html
     """
     print("PostUpdate")
     model = Post
