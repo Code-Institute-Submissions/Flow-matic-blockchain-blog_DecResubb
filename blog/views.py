@@ -94,7 +94,7 @@ class PostDeleteView(DeleteView):
 
 class PostUpdateView(UpdateView):
     """
-    View for users to edit comments via post_update.html
+    View for users to edit comments via
     """
     print("PostUpdate")
     model = Post
@@ -111,3 +111,20 @@ class PostUpdateView(UpdateView):
         if self.request.user == post.author:
             return True
         return False
+
+
+class CommentUpdateView(UpdateView):
+    """ Update comments via post_update.html """
+    model = Comment
+    form_class = CommentForm
+    context_object_name = 'comment'
+    template_name = 'post_update.html'
+
+    def form_valid(self, form):
+
+        """
+        Success url return to blogpost in question
+        with successfull commentform
+        """
+        self.success_url = f'/{self.get_object().post.slug}/'
+        return super().form_valid(form)
