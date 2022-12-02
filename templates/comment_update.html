@@ -1,6 +1,7 @@
-{% extends "base.html" %} {% block content %}
-
+{% extends "base.html" %} 
 {% load crispy_forms_tags %}
+
+{% block content %}
     <div class="content-section">
         <form method="post">
             {% csrf_token %}
@@ -10,7 +11,7 @@
                     <h2>Edit comment {{ object.title }}</h2>
             </fieldset>
             <div class="form-group">
-                <a class="btn btn-outline-secondary" href="{% url 'comment_update' comment.id %}" type="submit" value="Update">Edit</a>
+                <a class="btn btn-outline-success" href="{% url 'comment_update' comment.id %}">Edit</a>
                 <a class="btn btn-outline-secondary" href="{% url 'home' %}">Home</a> 
             </div>
         </form>

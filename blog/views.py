@@ -93,7 +93,7 @@ class PostDeleteView(DeleteView):
 
 
 class CommentUpdateView(UpdateView):
-    """ Update comments via comment_update.html """
+    """ Update comments """
     model = Comment
     form_class = CommentForm
     context_object_name = 'comment'
