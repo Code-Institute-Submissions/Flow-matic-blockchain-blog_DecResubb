@@ -9,6 +9,6 @@ urlpatterns = [
     path('like/<slug:slug>', views.PostLike.as_view(), name='post_like'),
     path('post/<int:pk>', views.PostDeleteView.as_view(), name='comment_delete'),
     path('post/<int:pk>', views.PostUpdateView.as_view(), name='post_update'),
-    path('comment-update/<int:pk>', views.CommentUpdateView.as_view(), name='update_comment'),
+    path('post/<int:pk>', views.CommentUpdateView.as_view(), name='comment_update'),
     
 ]

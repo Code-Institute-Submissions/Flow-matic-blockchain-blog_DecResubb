@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="content-section">
-        <form method="post" action="{% url 'post_update.html' %}">
+        <form method="post">
             {% csrf_token %}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Edit Comment</legend>
@@ -10,7 +10,7 @@
             <div class="form-group">
                 <!--<button class="btn btn-outline-danger" type="submit">Yes, Delete</button> -->
                 <!-- <button class="btn btn-outline-success"  action="{% url 'post_update' %}" type="submit">Edit</button> -->
-                <a class="btn btn-outline-secondary" type="submit" value="update">Edit</a>
+                <a class="btn btn-outline-secondary" href="{% url 'comment_update' comment.id %}" type="submit" value="Update">Edit</a>
                 <a class="btn btn-outline-secondary" href="{% url 'home' %}">Home</a> 
             </div>
         </form>

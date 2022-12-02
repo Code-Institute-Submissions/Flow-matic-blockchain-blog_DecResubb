@@ -110,15 +110,16 @@ class PostUpdateView(UpdateView):
         post = self.get_object()
         if self.request.user == post.author:
             return True
-        return False
+        return False 
 
 
 class CommentUpdateView(UpdateView):
-    """ Update comments via post_update.html """
+    """ Update comments via comment_update.html """
     model = Comment
     form_class = CommentForm
     context_object_name = 'comment'
-    template_name = 'post_update.html'
+    template_name = 'comment_update.html'
+    success_message = 'Comment has been updated successfully'
 
     def form_valid(self, form):
 
