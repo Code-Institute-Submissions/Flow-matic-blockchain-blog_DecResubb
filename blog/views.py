@@ -92,27 +92,6 @@ class PostDeleteView(DeleteView):
     success_message = 'Post has been deleted successfully'
 
 
-class PostUpdateView(UpdateView):
-    """
-    View for users to edit comments via
-    """
-    print("PostUpdate")
-    model = Post
-    template_name = 'post_update.html'
-    fields = ['title', 'content']
-    success_message = 'Comment has been updated successfully'
-
-    def form_valid(self, form):
-        form.instance.author = self.request.user
-        return super().form_valid(form)
-
-    def test_func(self):
-        post = self.get_object()
-        if self.request.user == post.author:
-            return True
-        return False 
-
-
 class CommentUpdateView(UpdateView):
     """ Update comments via comment_update.html """
     model = Comment
