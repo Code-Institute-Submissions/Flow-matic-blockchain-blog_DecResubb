@@ -87,8 +87,8 @@
                 </div>
                 {% if request.user == post.author %}
                 {{ comment.body | linebreaks }}
-                <a class="btn btn-danger btn-lg" href="{% url 'comment_delete' comment.id %}">Delete</a>
-                <a class="btn btn-success btn-lg" href="{% url 'comment_update' comment.id %}">Edit</a>
+                <a class="btn btn-outline-danger btn-lg" href="{% url 'comment_delete' comment.id %}">Delete</a>
+                <a class="btn btn-outline-success btn-lg" href="{% url 'comment_update' comment.id %}">Edit</a>
                 {% else %}
                 {{ comment.body | linebreaks }}
                 {% endif %}
