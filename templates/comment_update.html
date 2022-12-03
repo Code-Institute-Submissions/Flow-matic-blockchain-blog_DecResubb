@@ -5,13 +5,13 @@
     <div class="content-section">
         <form method="post">
             {% csrf_token %}
-            {{ comment_form | crispy }}
+            {{ form | crispy }}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Edit Comment</legend>
                     <h2>Edit comment {{ object.title }}</h2>
             </fieldset>
             <div class="form-group">
-                <a class="btn btn-outline-success" href="{% url 'comment_update' comment.id %}">Edit</a>
+                <button type="submit">Edit</button>
                 <a class="btn btn-outline-secondary" href="{% url 'home' %}">Home</a> 
             </div>
         </form>
