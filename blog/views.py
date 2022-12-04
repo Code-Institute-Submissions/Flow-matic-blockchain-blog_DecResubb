@@ -5,7 +5,6 @@ from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
 from .models import Post, Comment
 from .forms import CommentForm
-from django.contrib.auth.mixins import PermissionRequiredMixin
 
 
 class PostList(generic.ListView):

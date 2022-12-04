@@ -7,7 +7,7 @@ When most people hear the word blockchain, which refers to a type of decentraliz
 [The government has today announced moves that will see stablecoins recognised as a valid form of payment as part of wider plans to make Britain a global hub for cryptoasset technology and investment.](https://www.gov.uk/government/news/government-sets-out-plan-to-make-uk-a-global-cryptoasset-technology-hub)
 ___
 
-To the assessor, I have been unable to retrieve my Database from Heroku, I have contacted both Github and Heroku and at this moment in contact with the head of student care on this matter. Student care have told me that this issue wont affect my assessment. Thank you.
+To the assessor, I have been unable to retrieve my Database from Heroku, I have contacted both Github and Heroku and at this moment I am contact with the head of student care on this matter. Student care have told me that this issue wont affect my assessment. Thank you. 🙏 
 ___
 
 ## UX
@@ -385,11 +385,15 @@ Validators
 
   * [PEP8](https://www.google.com/search?q=pep8+checker&rlz=1C5CHFA_enNZ963NZ963&oq=pep&aqs=chrome.0.69i59l2j46i131i433i512j69i57j46i131i433i512j69i65j69i60l2.3007j0j7&sourceid=chrome&ie=UTF-8) was used for testing python code. 
 
-    * In the terminal by typing ( python3 -m flake8 ) and hit return will bring up all issuse within each python code file, saves you looking through every file one by one.
+    * In the terminal by typing ( python3 -m flake8 ) and hit return will bring up all issuse within each python code file, saves you looking through every file one by one, hover across one of the errors then press down command and click. this will open the file and area of code that needs attention.
 
-    * I chose to ignore any warnings on migration files since these are automatically generated files so may ignore style rules for efficiency reasons. Also as developers, usually don't need to touch them so they don't need to be perfectly readable.
+    * I chose to ignore any warnings on migration files susch as, (./.vscode/arctictern.py) (./blog/migrations/0001_initial.py). since these are automatically generated files so may ignore style rules for efficiency reasons. Also as developers, usually don't need to touch them so they don't need to be perfectly readable.
 
-    * imported but unused, also line too long E501 were some common issues, but at this stage I didn’t want to start breaking up my code, so can live with this.
+    * imported but unused, also line too long E501 were some common issues, Code was shortened within the urls.py and env.py files to fix these errors. One issue was when I shortened the ["DATABASE_URL"] Postgres code within the env.py file, I lost the website and it wouldn’t load, so I left it the way it was for now.
+
+    * In the settings file one issue is AUTH_PASSWORD_VALIDATORS line too long, after loosing my Website when trying to shorten the ["DATABASE_URL"] Postgres, I didn’t want to create more issues, I have spent too much time and sleepless nights getting to this stage.
+
+  * All errors were corrected too the files mentioned to the best of my ability.
 
 <br>
 
