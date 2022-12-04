@@ -33,8 +33,8 @@ Main goals for users
     * Log out ✅
     * See how many likes on other content ✅
     * View all content as a user ✅
-    * once users are signed up and logged in they can delete there comment.
-    * Users can edit their own comments.
+    * once users are signed up and logged in they cann add comments.
+    * Users can not at this moment, edit their own comments, only admin can. As I would not like any negative words.
 
 <br>
 
