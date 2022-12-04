@@ -6,11 +6,7 @@ body {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #4A4A4F;
-}
-
-.red-o {
-    color: #E84610;
+    color: #007bff;
 }
 
 .thin {
@@ -43,7 +39,7 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: #007bff;
 }
 
 .author {
@@ -93,7 +89,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: MediumSeaGreen;
 }
 
 .post-title {
@@ -181,8 +177,8 @@ body {
     color: #000;
 }
 
-/*button.btn.btn-danger.btn-lg {
+/* button.btn.btn-danger.btn-lg {
     color: #E84610;
     background: #fff;
-}/*
+} */
 
