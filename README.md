@@ -353,9 +353,22 @@ ___
 
 Validators
   
-  * [html file](https://github.com/Flow-matic/blockchain-blog/blob/main/media/html%20errors.png?raw=true) was checked with [W3C markup validation](https://validator.w3.org/) some errors were flagged due to using Django.
-    
-    * Issues using '{}' brackets, this syntax is necessary to access files and urls and therefore ignored. further research will be needed. 
+  * [html file](https://github.com/Flow-matic/blockchain-blog/blob/main/media/html%20errors.png?raw=true) was checked with [W3C markup validation](https://validator.w3.org/) some errors were flagged due to?
+
+<br>
+
+  * Using CoinMarketCap API widget that is displayed at the top of each page for Cryptocurrency prices.
+      * The error has Something to do with the widget and not the website it’s self.
+
+<br>
+
+  * Cloudinary img element that was added through the Admin side of each post, wanted an alt attribute added.
+      * The following alt was added to correct this issue. ( alt="cryptocurrency" ) within the index.html file.
+
+<br>
+
+  * Mailchimp subscription form has an error of using the same ( mc_embed_signup ) Duplicate ID within the form.
+      * I need this for the subscription form to work.
 
 <br>
 
@@ -376,7 +389,7 @@ Validators
 
     * I chose to ignore any warnings on migration files since these are automatically generated files so may ignore style rules for efficiency reasons. Also as developers, usually don't need to touch them so they don't need to be perfectly readable.
 
-    * imported but unused, also line too long E501 were some common issues, but at this stage I didn’t want to start breaking up my code, so can live with this, I understand as a developer these will have to be addressed more professionally.
+    * imported but unused, also line too long E501 were some common issues, but at this stage I didn’t want to start breaking up my code, so can live with this.
 
 <br>
 
@@ -419,7 +432,7 @@ Thanks to everyone involved at Code Institute for giving people the opportunity 
 
 <br>
 
-* [Code Institute](https://github.com/Code-Institute-Org/python-essentials-template) for providing the walkthrough guided videos and code.
+* [Code Institute](https://github.com/Code-Institute-Org/python-essentials-template) for providing the walkthrough guided videos,code and the student support they have.
 
 * [Favicon](https://favicon.io/) for the website favicon.
 
