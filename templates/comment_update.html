@@ -7,8 +7,8 @@
             {% csrf_token %}
             {{ form | crispy }}
             <fieldset class="form-group">
-                <legend class="border-bottom mb-4">Edit Comment</legend>
-                    <h2>Edit comment {{ object.title }}</h2>
+                <legend class="border-bottom mb-4">Please Edit your comment here:</legend>
+                    <h2>Please know that any edit you make will not be reversible. {{ object.title }}</h2>
             </fieldset>
             <div class="form-group">
                 <button class="btn btn-outline-success" type="submit">Edit</button>
