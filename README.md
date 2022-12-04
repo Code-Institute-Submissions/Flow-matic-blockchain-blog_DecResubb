@@ -7,6 +7,8 @@ When most people hear the word blockchain, which refers to a type of decentraliz
 [The government has today announced moves that will see stablecoins recognised as a valid form of payment as part of wider plans to make Britain a global hub for cryptoasset technology and investment.](https://www.gov.uk/government/news/government-sets-out-plan-to-make-uk-a-global-cryptoasset-technology-hub)
 ___
 
+To the assessor, I have been unable to retrieve my Database from Heroku, I have contacted both Github and Heroku and at this moment in contact with the head of student care on this matter. Student care have told me that this issue wont affect my assessment. Thank you.
+___
 
 ## UX
 This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies. The idea was to create a blog page for users to register, comment and like various contents about different blockchain technology information. 
@@ -32,6 +34,7 @@ Main goals for users
     * See how many likes on other content ✅
     * View all content as a user ✅
     * once users are signed up and logged in they can delete there comment.
+    * Users can edit their own comments.
 
 <br>
 
@@ -79,7 +82,7 @@ Main goals for users
 
 <br>
 
-* [User's will have to register an account, and be aproved by admin, before they can leave comments and likes.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20account%20registration.png?raw=true)
+* [User's will have to register an account, and be aproved by admin, before they can leave comments or edit, and add likes.](https://github.com/Flow-matic/blockchain-blog/blob/main/media/user%20story%20account%20registration.png?raw=true)
 
   *  Through the registration process, you can detect fraud and add a level of increased security to your website.
 
@@ -153,7 +156,7 @@ ___
 
    * Newest content
 
-     * Keeping up to date with the industry, networking, social media, forums, and google alerts will be regularly researched. 
+     * Keeping up to date with the industry, networking, forums, and google alerts will be regularly researched. 
 
 <br>
 
